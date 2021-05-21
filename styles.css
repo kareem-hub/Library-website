@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Tajawal:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 59px;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  min-height: 100%;
+  background-color: #fff;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 100;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+.navigation {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255);
+  z-index: 10;
+}
+
+.logo-text {
+  margin-left: 10px;
+  max-width: 15%;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.logo-text a {
+  position: relative;
+  display: inline-block;
+  margin: auto 0 0 15px;
+  padding-bottom: 3px;
+  border-bottom: 2px solid rgb(0, 107, 89);
+  transition-timing-function: ease;
+  color: rgb(99, 99, 99);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.nav-elements {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+
+.nav-element {
+  display: inline-block;
+  width: 50%;
+}
+
+.nav-element a {
+  display: block;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.nav-element a:hover {
+  background-color: black;
+  color: #fff;
+  transition: 0.3s;
+  cursor: default;
+}
+
+.main {
+  padding-top: 108px;
+  padding-bottom: 135px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(/root/imgs/library.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  opacity: 1;
+  color: white;
+  text-align: center;
+}
+
+.main-text {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+.small-heading {
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+h1 {
+  margin: 10px 0px;
+  font-family: "Roboto Condensed";
+  color: rgb(242, 244, 247);
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 38px;
+  line-height: 44px;
+  margin-top: 20px;
+}
+
+.welcome {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-bottom: 4px;
+  color: white;
+  font-size: 60px;
+  line-height: 88px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  text-shadow: rgb(0 0 0 / 10%) 0px 3px 0px;
+}
+
+.subscribe-button {
+  display: inline-block;
+  padding: 13px 24px;
+  border-radius: 2px;
+  background-color: rgb(10, 194, 194);
+  box-shadow: rgb(0 0 0 / 11%) 0px 0px 0px 1px,
+    rgb(0 0 0 / 16%) 0px -34px 50px -25px inset;
+  transition-property: background-color, box-shadow;
+  transition-duration: 200ms, 200ms;
+  transition-timing-function: ease, ease;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: rgb(0 0 0 / 10%) 0px 1px 0px;
+}
+
+.subscribe-button:hover {
+  background-color: rgb(0, 68, 68);
+}
+.subscribe-button a {
+  background-color: transparent;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+.platf-goal {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  object-fit: fill;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.platf-text {
+  width: 60%;
+  position: relative;
+  float: left;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.platf-text .title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  color: rgb(56, 56, 56);
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.paragraph {
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: rgb(19, 19, 19);
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 80%;
+}
+
+.visit-facebook {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  opacity: 1;
+  transition-property: none;
+  transition-duration: 0ms;
+  transition-timing-function: ease;
+  color: #00ccaa;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.visit-facebook:hover {
+  color: #003b24;
+  transition: 0.3s all ease;
+}
+
+.cis-logo {
+  display: inline-block;
+  max-width: 75%;
+  border-radius: 20px;
+  line-height: 15px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 0;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+footer {
+  display: block;
+  position: relative;
+  min-height: 200px;
+  max-height: 300px;
+  z-index: 10;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(29, 31, 33);
+  overflow: hidden;
+}
+
+.footer-column {
+  display: block;
+  margin-top: 10px;
+  max-width: 8%;
+  margin-left: 6rem;
+}
+
+.library-ul {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.footer-ul {
+  list-style: none;
+}
+
+.footer-lst-element {
+  margin-bottom: 2px;
+  width: 10px;
+}
+
+.footer-lst-element a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.boring {
+  color: #535353;
+}
+.boring:hover,
+.footer-lst-element a:hover {
+  color: #00ffd5;
+}
+.social {
+  height: 10%;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  margin-left: 5.5rem;
+  margin-top: 20px;
+}
+
+.social a img {
+  height: 20px;
+}
+
+.d {
+  margin-left: 15px;
+}
+
+.nav-element .selected {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+@media only screen and (max-width: 460px) {
+  .welcome {
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 900;
+  }
+  .platf-text .title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+  }
+  .paragraph {
+    font-size: 20px;
+    line-height: 26px;
+    min-width: 100%;
+  }
+  .logo-text {
+    width: 15%;
+  }
+  .logo-nav {
+    margin: auto 0 0 15px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .nav-element a {
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-decoration: none;
+  }
+}
